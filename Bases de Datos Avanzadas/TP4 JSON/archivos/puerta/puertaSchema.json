@@ -1,0 +1,112 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/puertaSchema.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "doble",
+        "dimensiones",
+        "id",
+        "nombre",
+        "precio",
+        "etiquetas"
+    ],
+    "properties": {
+        "doble": {
+            "type": "boolean",
+            "default": false,
+            "title": "The doble Schema",
+            "examples": [
+                false
+            ]
+        },
+        "dimensiones": {
+            "type": "object",
+            "default": {},
+            "title": "The dimensiones Schema",
+            "required": [
+                "anchura",
+                "altura"
+            ],
+            "properties": {
+                "anchura": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The anchura Schema",
+                    "examples": [
+                        5
+                    ]
+                },
+                "altura": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The altura Schema",
+                    "examples": [
+                        10
+                    ]
+                }
+            },
+            "examples": [{
+                "anchura": 5,
+                "altura": 10
+            }]
+        },
+        "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+                1
+            ]
+        },
+        "nombre": {
+            "type": "string",
+            "default": "",
+            "title": "The nombre Schema",
+            "examples": [
+                "puerta verde"
+            ]
+        },
+        "precio": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The precio Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "etiquetas": {
+            "type": "array",
+            "default": [],
+            "title": "The etiquetas Schema",
+            "items": {
+                "type": "string",
+                "title": "A Schema",
+                "examples": [
+                    "interior",
+                    "verde"
+                ]
+            },
+            "examples": [
+                ["interior",
+                    "verde"
+                ]
+            ]
+        }
+    },
+    "examples": [{
+        "doble": false,
+        "dimensiones": {
+            "anchura": 5,
+            "altura": 10
+        },
+        "id": 1,
+        "nombre": "puerta verde",
+        "precio": 12.5,
+        "etiquetas": [
+            "interior",
+            "verde"
+        ]
+    }]
+}

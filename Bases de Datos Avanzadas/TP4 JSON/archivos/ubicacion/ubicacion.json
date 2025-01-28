@@ -1,0 +1,20 @@
+{
+    "$id": "https://example.com/ubicacion-geografica.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Valores de Latitud y Longitud",
+    "description": "Coordenadas Geograficas",
+    "required": ["latitud", "longitud"],
+    "type": "object",
+    "properties": {
+        "latitud": {
+            "type": "number",
+            "minimum": -90,
+            "maximun": 90
+        },
+        "longitud": {
+            "type": "number",
+            "minimum": -180,
+            "maximun": 180
+        }
+    }
+}

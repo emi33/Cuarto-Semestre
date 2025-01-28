@@ -1,0 +1,14 @@
+{
+    "doble": false,
+    "dimensiones": {
+        "anchura": 5,
+        "altura": 10
+    },
+    "id": 1,
+    "nombre": "puerta verde",
+    "precio": 12.5,
+    "etiquetas": [
+        "interior",
+        "verde"
+    ]
+}

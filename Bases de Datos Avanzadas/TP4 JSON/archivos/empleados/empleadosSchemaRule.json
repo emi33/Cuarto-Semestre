@@ -1,0 +1,58 @@
+{
+    $jsonSchema: {
+        "title": "Registro de empleados",
+        "description": "Este documento almacena registros de los detalles de los empleados",
+        "type": "object",
+        "properties": {
+            "id": {
+                "description": "Identificador unico de un empleado",
+                "type": "string"
+            },
+            "nombre": {
+                "description": "nombre completo de un empleado",
+                "type": "string",
+                "minLength": 2
+            },
+            "edad": {
+                "description": "edad de un empleado",
+                "type": "number",
+                "minimum": 16
+            },
+            "pasatiempos": {
+                "description": "pasatiempos de los empleados",
+                "type": "object",
+                "properties": {
+                    "de interior": {
+                        "type": "array",
+                        "items": {
+                            "description": "Lista de pasatiempos de interior",
+                            "type": "string"
+                        },
+                        "minItems": 1,
+                        "uniqueItems": true
+                    },
+                    "de exterior": {
+                        "type": "array",
+                        "items": {
+                            "description": "lista de pasatiempos de exterior",
+                            "type": "string"
+                        },
+                        "minItems": 1,
+                        "uniqueItems": true
+                    }
+                },
+                "required": [
+                    "de interior",
+                    "de exterior"
+                ]
+            }
+        },
+        "required": [
+            "id",
+            "nombre",
+            "edad",
+            "pasatiempos"
+        ],
+        "additionalProperties": false
+    }
+}

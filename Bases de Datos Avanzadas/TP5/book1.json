@@ -1,0 +1,26 @@
+{
+    "Title":"1984",
+    "Autor":"George Orwell",
+    "Categories":["Science Fictions","Classics"],
+    "Stock":5,
+    "Edition":{"format":"Paperback","Page":"336"},
+    "Language":"English",
+    "ISBN":19780141036144
+},
+{
+    "Title":"Brave New World",
+    "Autor":"Aldous Huxley",
+    "Categories":["Science Fictions"],
+    "Stock":23,
+    "Language":"English"
+},
+{
+    "Title":"A Clockwork Orange",
+    "Autor":"Anthony Burgess",
+    "Categories":["Science Fictions","Crime","Crime Fiction","Classics"],
+    "Stock":10,
+    "Edition":{"format":"Paperback","Page":"144"},
+    "Language":"English",
+    "PublishedDate":"2019-08-03"
+
+}

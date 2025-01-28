@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Alice Smith",
+      "year": 2022,
+      "major": "Computer Science",
+      "gpa": 3.8,
+      "address": {
+        "city": "New York",
+        "street": "123 Main St"
+      }
+    },
+    {
+      "name": "Bob Johnson",
+      "year": 2020,
+      "major": "Math",
+      "gpa": 3.5,
+      "address": {
+        "city": "Los Angeles",
+        "street": "456 Elm St"
+      }
+    },
+    {
+      "name": "Charlie Brown",
+      "year": 2019,
+      "major": "English",
+      "gpa": 3.9,
+      "address": {
+        "city": "Chicago",
+        "street": "789 Maple St"
+      }
+    }
+  ]

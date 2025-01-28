@@ -1,0 +1,13 @@
+{
+    "id": "11",
+    "nombre": "Jane Doe",
+    "edad": 25,
+    "pasatiempos": {
+        "de interior": [
+            "Damas"
+        ],
+        "de exterior": [
+            "futbol"
+        ]
+    }
+}

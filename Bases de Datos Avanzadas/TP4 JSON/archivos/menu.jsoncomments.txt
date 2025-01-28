@@ -1,0 +1,15 @@
+{
+  "menu": {
+    "id": "file", //strings
+    "num": 199,  //números
+    //también acepta booleanos
+    "value": "File",
+    "popup": {
+      "menuitem": [ //lista de valores o arreglo
+        {"value": "New", "onclick": "CreateNewDoc()"}, //pares nombre valor
+        {"value": "Open", "onclick": "OpenDoc()"}, //o objeto
+	{"value": "Close", "onclick": "CloseDoc()"}
+      ]
+    }
+  }	
+}

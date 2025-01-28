@@ -1,0 +1,14 @@
+{
+    "id": "1",
+    "name": "Jane Doe",
+    "age": 25,
+    "hobbies": {
+        "indoor": [
+            "Chess"
+        ],
+        "outdoor": [
+            "Football"
+        ]
+    }
+   
+}

@@ -1,0 +1,9 @@
+{
+    "Title":"The Plague",
+    "Autor":"Albert Camus",
+    "Categories":["Classics", "Existentialism"],
+    "Stock":31,
+    "Edition":{"format":"Paperback","Page":"256"},
+    "Language":"French",
+    "ISBN": 0141185139
+}

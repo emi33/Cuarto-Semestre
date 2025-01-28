@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>JSON Crash Course</title>
+</head>
+
+<body>
+    <p></p>
+    <script type="text/javascript">
+        let contacts = `{
+            "contacts": [
+                {
+                    "name": "John Wick",
+                    "edad": 30,
+                    "isActive": false,
+                    "Adress": "5 Queen St",
+                    "Phone": [
+                        { "personal": "2634787488" },
+                        { "laboral": "0245223145" }
+                    ],
+                    "dogs": [],
+                    "wife": null
+                },
+                {
+                    "name": "Quentin Tarantino",
+                    "edad": 55,
+                    "isActive": true,
+                    "Adress": "20 Queen St",
+                    "Phone": [
+                        { "personal": "00012345" },
+                        { "work": "076781234" }
+                    ],
+                    "dogs": ["ash", "tony"],
+                    "wife": "Uma Thurman"
+                }
+            ]
+        }`;
+        console.log(JSON.parse(contacts)); //PARSEAR STRING 
+        let parsedContacts = JSON.parse(contacts); //guardar en variables como parsed
+        console.log(parsedContacts.contacts[0].name); //mostrar nombres
+    </script>
+</body>
+
+</html>

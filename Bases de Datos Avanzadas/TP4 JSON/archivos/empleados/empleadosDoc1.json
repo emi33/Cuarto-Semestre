@@ -1,0 +1,9 @@
+{
+    "id": "7",
+    "nombre": "John Doe",
+    "edad": 22,
+    "pasatiempos": {
+        "de interior": ["Ajedrez"],
+        "de exterior": ["Basketball"]
+    }
+}

@@ -1,0 +1,18 @@
+[{
+    "Title":"On the Road",
+    "Autor":"Jack Kerouac",
+    "Categories":["Classics", "Road Trip"],
+    "Stock":3,
+    "Edition":{"format":"Paperback","Page":"223"},
+    "Language":"English",
+    "ISBN":0141182679
+},
+{
+    "Title":"The Stranger",
+    "Autor":"Albert Camus",
+    "Categories":["Classics", "Fiction"],
+    "Stock":41,
+    "Edition":{"format":"Paperback","Page":"144"},
+    "Language":"English",
+    "ISBN":0679720200
+}]
